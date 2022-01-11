@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {"intents":[
 	{
 		"tag": "Greeting",
@@ -44,4 +45,52 @@
 		"context_set":""
 	}
 	]
+=======
+{"intents":[
+	{
+		"tag": "Greeting",
+		"patterns":["Hello!","Hey","Sup", "Hi"],
+		"responses":["Hello. How can I help you?", "Hey, What kind of music do you like?"],
+		"context_set":""
+	},
+	{
+		"tag": "GreetingTwo",
+		"patterns":["How are you?", "How you doing?"],
+		"responses":["I'm good :) How can I help you?"],
+		"context_set": ""
+	},
+	{
+		"tag": "Thank you",
+		"patterns":["Thanks","Thank you"],
+		"reponses":["You're welcome.", "Anytime :)"],
+		"context_set":""
+
+	},
+	{
+		"tag":"Random",
+		"patterns":["Any type of music", "anything","Random Selections"],
+		"responses":["Come Down-Anderson .Paak", "You know I'm no good-Amy Whinehouse","The Weeknd-Save your tears"],
+		"context_set":""
+	},
+	{
+		"tag": "Indie",
+		"patterns": ["I want Indie suggestions","Inide","Indie Rock","I like indie songs"],
+		"responses": ["Silver Soul-Beach House","What once was-Her's", "Beach house - boy pablo", "15 steps - Radiohead"],
+		"context_set":""
+
+	},
+	{
+		"tag":"Rock",
+		"patterns":["I want Rock suggestions","Rock and Roll","Rock","I like rock songs"],
+		"responses":["Bohemian Rhapsody - Queen", "Highway to hell - AC/DC", "I'm not made by design - Nothing but thieves"],
+		"context_set":""
+	},
+		{
+		"tag":"Hip hop",
+		"patterns":["I want Hip hop suggestions","Hip hop","Rap","I like Hip hop songs"],
+		"responses":["Doo Woop(That thing) - Lauryn Hill", "The Story of O.J - Jay Z", "Ms. Jackson - Outkast"],
+		"context_set":""
+	}
+	]
+>>>>>>> 5a47c4bceb310f23d154b87e6259eff0e0a47ff4
 }
